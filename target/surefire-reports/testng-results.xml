@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24727" started-at="2020-05-18T01:19:12 EDT" finished-at="2020-05-18T01:19:37 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24727" started-at="2020-05-18T01:19:12 EDT" finished-at="2020-05-18T01:19:37 EDT">
+      <class name="com.practice.testcases.TC_Login_DataDriven_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.practice.testcases.TC_Login_DataDriven_003@48a242ce]" name="setup" is-config="true" duration-ms="6152" started-at="2020-05-18T01:19:12 EDT" finished-at="2020-05-18T01:19:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromePath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DataDrivenLogin(java.lang.String, java.lang.String)[pri:0, instance:com.practice.testcases.TC_Login_DataDriven_003@48a242ce]" name="DataDrivenLogin" duration-ms="3456" started-at="2020-05-18T01:19:19 EDT" data-provider="loginData" finished-at="2020-05-18T01:19:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenLogin -->
+        <test-method status="PASS" signature="DataDrivenLogin(java.lang.String, java.lang.String)[pri:0, instance:com.practice.testcases.TC_Login_DataDriven_003@48a242ce]" name="DataDrivenLogin" duration-ms="2571" started-at="2020-05-18T01:19:23 EDT" data-provider="loginData" finished-at="2020-05-18T01:19:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenLogin -->
+        <test-method status="PASS" signature="DataDrivenLogin(java.lang.String, java.lang.String)[pri:0, instance:com.practice.testcases.TC_Login_DataDriven_003@48a242ce]" name="DataDrivenLogin" duration-ms="4424" started-at="2020-05-18T01:19:25 EDT" data-provider="loginData" finished-at="2020-05-18T01:19:30 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenLogin -->
+        <test-method status="PASS" signature="DataDrivenLogin(java.lang.String, java.lang.String)[pri:0, instance:com.practice.testcases.TC_Login_DataDriven_003@48a242ce]" name="DataDrivenLogin" duration-ms="3463" started-at="2020-05-18T01:19:30 EDT" data-provider="loginData" finished-at="2020-05-18T01:19:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenLogin -->
+        <test-method status="PASS" signature="DataDrivenLogin(java.lang.String, java.lang.String)[pri:0, instance:com.practice.testcases.TC_Login_DataDriven_003@48a242ce]" name="DataDrivenLogin" duration-ms="2540" started-at="2020-05-18T01:19:33 EDT" data-provider="loginData" finished-at="2020-05-18T01:19:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.testcases.TC_Login_DataDriven_003@48a242ce]" name="tearDown" is-config="true" duration-ms="717" started-at="2020-05-18T01:19:36 EDT" finished-at="2020-05-18T01:19:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practice.testcases.TC_Login_DataDriven_003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
